@@ -4,10 +4,10 @@ This dataset was taken from a reserach paper, cited in reference, and made avaia
 ## 1. Summary 
 
 ##### Problem Statement
-
+Build a classifier to predict if a person will accept a 20% discount coupon. 
 
 ##### Technical Overview
-
+The dataset is comprised of all categorical variables and some missing values. I tested several ensamble 
 
 ## 2. Results
 
@@ -15,6 +15,9 @@ This dataset was taken from a reserach paper, cited in reference, and made avaia
 
   
 ## 3. Data Description
+
+##### Notes
+All coupons provide a 20% discount. The survey was given to Amazon Mechnical Turk.
 
 - destination: No Urgent Place, Home, Work
 - passanger: Alone, Friend(s), Kid(s), Partner (who are the passengers in the car)
@@ -29,7 +32,6 @@ This dataset was taken from a reserach paper, cited in reference, and made avaia
 - has_Children:1, 0
 - education: Some college - no degree, Bachelors degree, Associates degree, High School Graduate, Graduate degree (Masters or Doctorate), Some High School
 - occupation: Unemployed, Architecture & Engineering, Student, etc..
-- A
 - income: (feature meaning: how many times do you go to a bar every month?)
 - CoffeeHouse: (feature meaning: how many times do you go to a coffeehouse every month?)
 - CarryAway: (feature meaning: how many times do you get take-away food every month?)
