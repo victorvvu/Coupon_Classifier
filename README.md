@@ -11,9 +11,21 @@ The dataset is comprised of all categorical variables and some missing values. I
 
 ## 2. Results
 
-- fill
+Here are some visualizations of features. In this![notebook](https://github.com/victorvvu/Coupon_Classifier/blob/main/coupon_eda.ipynb), I look at other features as well.
 
-  
+[education](https://github.com/victorvvu/Coupon_Classifier/blob/main/images/coupon_education.png?raw=true)
+
+
+[mosaic](https://github.com/victorvvu/Coupon_Classifier/blob/main/images/coupon_mosaic.png?raw=true)
+
+Here are the ROC curves plotted from the models I tested. Overall none of the models stood out. They all performed the same, since the difference may just come from how the data was split. 
+
+[roc](https://github.com/victorvvu/Coupon_Classifier/blob/main/images/coupon_test_auc.png?raw=true)
+
+
+This model can be greatly benefitical to any restaurants, consumer businesses, and social media companies trying to increase profits. Social media already has personalized advertisements in real time, and the model can help this process by predicting which persons would most likely accept the discount. This can make advertisements more effective on consumers and help a companies bottom line.
+
+
 ## 3. Data Description
 
 ##### Notes
@@ -47,12 +59,13 @@ All coupons provide a 20% discount. The survey was given to Amazon Mechnical Tur
 
   
 ## 4. Libraries
--sklearn
--pandas
--numpy
--xgboost
--catboost
--lightgbm
+- sklearn
+- pandas
+- numpy
+- xgboost
+- catboost
+- lightgbm
+- optuna
 
 ## 5. References
 Wang, Tong, Cynthia Rudin, Finale Doshi-Velez, Yimin Liu, Erica Klampfl, and Perry MacNeille. 'A bayesian framework for learning rule sets for interpretable classification.' The Journal of Machine Learning Research 18, no. 1 (2017): 2357-2393.
