@@ -18,9 +18,9 @@ Here are some visualizations of features. In this [notebook](https://github.com/
 
 ![mosaic](https://github.com/victorvvu/Coupon_Classifier/blob/main/images/coupon_mosaic.png?raw=true)
 
-Here are the ROC curves plotted from the models I tested. Overall none of the models stood out. They all performed the same, since the difference may just come from how the data was split. 
+Here are the ROC curves plotted from the models I tested. Overall none of the models stood out. They all performed the same, since the difference may just come from how the data was split.
 
-![roc](https://github.com/victorvvu/Coupon_Classifier/blob/main/images/coupon_test_auc.png?raw=true)
+![roc](https://github.com/victorvvu/Coupon_Classifier/blob/main/images/coupon_clfers.png?raw=true)
 
 
 This model can be greatly benefitical to any restaurants, consumer businesses, and social media companies trying to increase profits. Social media already has personalized advertisements in real time, and the model can help this process by predicting which persons would most likely accept the discount. This can make advertisements more effective on consumers and help a companies bottom line.
