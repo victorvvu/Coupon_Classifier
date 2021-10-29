@@ -1,5 +1,5 @@
 # Coupon Classifier
-This dataset was taken from a reserach paper, cited in reference, and made avaiable on UCI's data respository.  
+This dataset was taken from a research paper, cited in reference, and made available on UCI's data repository.  
 
 ## 1. Summary 
 
@@ -7,7 +7,7 @@ This dataset was taken from a reserach paper, cited in reference, and made avaia
 Build a classifier to predict if a person will accept a 20% discount coupon. 
 
 ##### Technical Overview
-The dataset is comprised of all categorical variables and some missing values. I tested several ensamble 
+The dataset is comprised of all categorical variables and some missing values. I tested several popular machine learning models (LightGBM, XGBoost, Random Forest, Naives Bayes, NN). The NN did not work at all since the dataset was way too small.
 
 ## 2. Results
 
@@ -23,7 +23,7 @@ Here are the ROC curves plotted from the models I tested. Overall none of the mo
 ![roc](https://github.com/victorvvu/Coupon_Classifier/blob/main/images/coupon_clfers.png?raw=true)
 
 
-This model can be greatly benefitical to any restaurants, consumer businesses, and social media companies trying to increase profits. Social media already has personalized advertisements in real time, and the model can help this process by predicting which persons would most likely accept the discount. This can make advertisements more effective on consumers and help a companies bottom line.
+This model can be greatly beneficial to any restaurants, consumer businesses, and social media companies trying to increase profits. Social media already has personalized advertisements in real time, and the model can help this process by predicting which persons would most likely accept the discount. This can make advertisements more effective on consumers and help a companies bottom line.
 
 
 ## 3. Data Description
